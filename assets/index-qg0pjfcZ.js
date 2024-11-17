@@ -47,12 +47,13 @@ Error generating stack: `+s.message+`
             text-sm w-8 h-8 ${r?"delay-700":"translate-y-40 scale-50 "} `,children:D.jsx("img",{src:yS,alt:"",className:"object-fill"})})]})]})}const xS=""+new URL("L-B049aP1t.png",import.meta.url).href;function SS({motion:e,fadeIn:t}){const[n,r]=O.useState("a"),i="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";function s(o){let a="";for(let l=0;l<o.length;l++){const u=setInterval(()=>{r(a+i.charAt(Math.floor(Math.random()*i.length)))},100);setTimeout(()=>{clearInterval(u),a+=o.charAt(l),r(a)},700*(l+1))}}return O.useEffect(()=>{s("Rafi Akmal"),setInterval(()=>{s("Rafi Akmal")},3e4)},[]),D.jsxs("section",{id:"hero",className:`h-[90vh] sm:h-[83vh] md:h-[83vh] lg:h-[83vh] flex flex-col md:flex-row gap-3\r
         relative`,children:[D.jsx("div",{className:`absolute bottom-0 w-full h-52 bg-gradient-to-t from-[#001670] to-transparent\r
           pointer-events-none z-10`,"aria-hidden":"true"}),D.jsxs(e.div,{variants:t("right",.1),initial:"hidden",whileInView:"show",viewport:{once:!1,amount:.4},className:`md:w-[80%] h-full p-2 md:mt-0 flex flex-col justify-center items-center\r
-          md:items-start md:pl-10`,children:[D.jsx("h1",{className:`font-bold max-h-20 max-w-max p-2 bg-white dark:bg-sky-400 text-xs sm:text-xl\r
-            text-center shadow-lg border-2 border-slate-900 dark:border-sky-200 -mt-5\r
-            sm:-mt-10`,children:"welcome to my portfolio"}),D.jsxs("h1",{className:"text-xl sm:text-4xl font-bold inline mt-2",children:["Hello I‘m"," "]}),D.jsx("span",{className:`text-3xl font-bold sm:text-7xl md:text-6xl lg:text-7xl text-sky-500 inline mt-2\r
-            text-center`,children:n}),D.jsx("p",{className:`md:text-justify text-center mt-3 w-full md:max-w-none md:pr-10 tracking-wide\r
-            mb-20`,children:"Web Developer | Front end developer | JUNIOR Full Stack Developer"})]}),D.jsx(e.div,{variants:t("up",.1),initial:"hidden",whileInView:"show",viewport:{once:!1,amount:.2},className:"text-center justify-center items-center mx-auto w-[70%] hidden md:flex overflow",children:D.jsx("img",{src:xS,alt:"L",className:`w-full sm:w-96 object-contain md:h-full md:object-cover xl:w-max transition\r
-            origin-bottom-left hover:scale-105 drop-shadow-[-20px_-21px_20px_#001670]\r
+          md:items-start md:pl-10`,children:[D.jsx("h1",{className:`p-2 -mt-5 text-xs font-bold text-center bg-white border-2 shadow-lg max-h-20\r
+            max-w-max dark:bg-sky-400 sm:text-xl border-slate-900 dark:border-sky-200\r
+            sm:-mt-10`,children:"welcome to my portfolio"}),D.jsxs("h1",{className:"inline mt-2 text-xl font-bold sm:text-4xl",children:["Hello I‘m"," "]}),D.jsx("span",{className:`inline mt-2 text-3xl font-bold text-center sm:text-7xl md:text-6xl lg:text-7xl\r
+            text-sky-500`,children:n}),D.jsx("p",{className:`w-full mt-3 mb-20 tracking-wide text-center md:text-justify md:max-w-none\r
+            md:pr-10`,children:"Web Developer | Front end developer | JUNIOR Full Stack Developer"})]}),D.jsx(e.div,{variants:t("up",.1),initial:"hidden",whileInView:"show",viewport:{once:!1,amount:.2},className:"text-center justify-center items-center mx-auto w-[70%] hidden md:flex overflow",children:D.jsx("img",{src:xS,alt:"L",className:`w-full sm:w-96 object-cover md:w-fit md:mt-auto lg:mt-0 lg:h-full xl:w-max\r
+            transition origin-bottom-left hover:scale-105\r
+            drop-shadow-[-20px_-21px_20px_#001670]\r
             hover:drop-shadow-[-20px_-5px_5px_#001670] cursor-pointer\r
             dark:drop-shadow-[-20px_-21px_20px_#ffffff]\r
             dark:hover:drop-shadow-[-20px_-5px_5px_#ffffff]`})})]})}const TS=""+new URL("deathnote-NK69tE-v.png",import.meta.url).href,ES=""+new URL("pen-BicoEu7z.png",import.meta.url).href;function CS({motion:e,fadeIn:t}){return D.jsxs("section",{className:`about w-full h-full pt-52 pb-40 bg-gradient-to-b from-[#001670] from-50%\r
